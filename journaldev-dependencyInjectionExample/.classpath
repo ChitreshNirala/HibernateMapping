@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/spcorejars/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/aop.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/core.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/ibatis.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/j2ee.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/javaconfig.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/misc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/persistCore.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/persistJDO.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/remoting.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/test.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars/web.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Claimbook/Downloads/springjars.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

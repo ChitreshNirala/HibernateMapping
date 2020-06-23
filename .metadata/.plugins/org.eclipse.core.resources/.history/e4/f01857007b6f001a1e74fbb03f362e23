@@ -1,0 +1,30 @@
+package test;
+
+import java.util.HashMap;
+
+public class CalculateAlphabates {
+  
+
+   public static void main(String args[]) {
+      
+	   int num= new CalculateAlphabates().calculate("BAD");
+   }
+
+private int calculate(String str) {
+	
+	HashMap<String, Integer> map = new HashMap<String, Integer>();
+	map.put("A", 0);
+	map.put("B", 1);
+	map.put("C", map.get("B")+map.get("A"));
+	map.put("D", map.get("C")+map.get("B"));
+	map.put("E", map.get("D")+map.get("C"));
+	
+	int num=0;
+	for(int i=0;i<=str.length();i++) {
+		
+		num= num+map.get(str.charAt(i));
+	}
+	
+	return num;
+}
+}

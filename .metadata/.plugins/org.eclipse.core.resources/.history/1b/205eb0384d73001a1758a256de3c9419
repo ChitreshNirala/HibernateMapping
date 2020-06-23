@@ -1,0 +1,14 @@
+package com.journaldev.spring.di.consumer;
+
+import com.journaldev.spring.di.services.MessageService;
+
+public class MyApplication {
+
+	private MessageService service;
+
+	public void setMessageService(MessageService svc) {
+		this.service = svc;
+	}
+	
+	
+}

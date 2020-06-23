@@ -1,0 +1,44 @@
+package test;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
+public class CalculateAlphabates {
+  
+
+   public static void main(String args[]) {
+      
+	  // CalculateAlphabates cal= new CalculateAlphabates();
+	   //int a = cal.calculate("BAD");
+	   int a = calculate("BAD");
+	   System.out.println(a);
+   }
+
+public static int calculate(String str) {
+	
+	HashMap<String, Integer> map = new HashMap<>();
+	map.put("A", 0);
+	map.put("B", 1);
+	map.put("C", map.get("B")+map.get("A"));
+	map.put("D", map.get("C")+map.get("B"));
+	map.put("E", map.get("D")+map.get("C"));
+	
+		/*
+		 * Iterator<Entry<String, Integer>> entryIterator = map.entrySet().iterator();
+		 * 
+		 * while (entryIterator.hasNext()) { Entry<String, Integer> entry =
+		 * entryIterator.next();
+		 * 
+		 * System.out.println("The key is :: " + entry.getKey() + ", and value is :: " +
+		 * entry.getValue() ); }
+		 */
+	int num=0;
+	for(int i=0;i<=str.length();i++) {
+		
+		num= num+map.get(str.charAt(i));
+	}
+	
+	return num;
+}
+}

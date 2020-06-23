@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import javax.xml.ws.RespectBinding;
+
+import org.springframework.stereotype.Controller;
+
+import com.example.demo.nean.Student;
+import com.example.demo.nean.StudentRegistration;
+
+@Controller
+public class StudentRetrieveController {
+	
+	 @RequestMapping(method = RequestMethod.GET, value="/student/allstudent")
+	@ResponseBody
+	public List<Student> getAllStudent(){
+		
+		return StudentRegistration.getInstance().getStudentRecords();
+		
+	}
+
+}

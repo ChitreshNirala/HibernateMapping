@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=baeldungProject/C:\/Users\/Claimbook\/.m2\/repository\/org\/springframework\/spring-web\/5.2.1.RELEASE\/spring-web-5.2.1.RELEASE.jar&lt;org.springframework.web(WebApplicationInitializer.class[WebApplicationInitializer" modifiers="1537" timestamp="1576143670928"/>
+<typeInfo handle="=javaguides-springboot-JPA-OTO-example/C:\/Users\/Claimbook\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.6.RELEASE\/spring-data-jpa-2.2.6.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1587368089229"/>
+<typeInfo handle="=telusko-spring-data-mvc-SB/C:\/Users\/Claimbook\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.6.RELEASE\/spring-data-commons-2.2.6.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1587368090717"/>
+<typeInfo handle="=telusko-spring-data-mvc-SB/C:\/Users\/Claimbook\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.6.RELEASE\/spring-data-jpa-2.2.6.RELEASE.jar&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1587368089229"/>
+</typeInfoHistroy>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+               
+             <bean id="mathcheat" class="com.seleniumexpress.MathCheat"></bean>
+              <bean id="sciencecheat" class="com.seleniumexpress.MathCheat"></bean>
+            
+<bean id="student" class ="com.seleniumexpress.Student">
+<property name="cheat" ref ="mathcheat"/>
+</bean>
+
+<!-- <bean id="another" class ="com.seleniumexpress.AnotherStudent">
+<property name="cheat" ref ="mathcheat"/>
+</bean> -->
+ 
+</beans>

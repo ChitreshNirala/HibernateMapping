@@ -1,0 +1,70 @@
+package test;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
+public class CalculateAlphabates {
+
+	public static void main(String args[]) {
+
+		// CalculateAlphabates cal= new CalculateAlphabates();
+		// int a = cal.calculate("BAD");
+		int a = calculate("BAD");
+		System.out.println(a);
+	}
+
+	public static int calculate(String str) {
+		int num = 0;
+		HashMap<String, Integer> map = new HashMap<>();
+		map.put("A", 0);
+		map.put("B", 1);
+		map.put("C", map.get("B") + map.get("A"));
+		map.put("D", map.get("C") + map.get("B"));
+		map.put("E", map.get("D") + map.get("C"));
+		map.put("F", map.get("E") + map.get("D"));
+		map.put("G", map.get("F") + map.get("E"));
+		map.put("H", map.get("G") + map.get("F"));
+		map.put("I", map.get("H") + map.get("G"));
+		map.put("J", map.get("I") + map.get("H"));
+		map.put("K", map.get("J") + map.get("I"));
+		map.put("L", map.get("K") + map.get("J"));
+		map.put("M", map.get("L") + map.get("K"));
+		map.put("N", map.get("M") + map.get("L"));
+		map.put("O", map.get("N") + map.get("M"));
+		map.put("P", map.get("O") + map.get("N"));
+		map.put("Q", map.get("P") + map.get("O"));
+		map.put("R", map.get("Q") + map.get("P"));
+		map.put("S", map.get("R") + map.get("Q"));
+		map.put("T", map.get("S") + map.get("R"));
+		map.put("U", map.get("T") + map.get("S"));
+		map.put("V", map.get("U") + map.get("T"));
+		map.put("W", map.get("V") + map.get("U"));
+		map.put("X", map.get("W") + map.get("V"));
+		map.put("Y", map.get("X") + map.get("W"));
+		map.put("Z", map.get("Y") + map.get("X"));
+		System.out.println(map);
+
+		Iterator<Entry<String, Integer>> entryIterator = map.entrySet().iterator();
+
+		while (entryIterator.hasNext()) {
+			Entry<String, Integer> entry = entryIterator.next();
+
+			System.out.println("The key is :: " + entry.getKey() + ", and value is :: " + entry.getValue());
+			
+			for (int i = 0; i <= str.length()-1; i++) {
+				if(entry.getKey().equals(String.valueOf(str.charAt(i)))) {
+					num =num+entry.getValue();
+				}
+				
+			}
+			
+		}
+
+		// int value= map.get(B);
+		
+		
+
+		return num;
+	}
+}

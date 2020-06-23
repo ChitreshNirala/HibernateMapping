@@ -1,0 +1,22 @@
+package com.seleniumexpress.ioc;
+
+import org.omg.CORBA.portable.ApplicationException;
+
+public class Mobile {
+	public static void main(String[] args) {
+		/*
+		 * Airtel airtel=new Airtel(); airtel.calling(); airtel.data();
+		 */
+		
+		/*
+		 * Vodafone vodafone= new Vodafone(); vodafone.calling(); vodafone.data();
+		 */
+	
+		/*
+		 * Sim sim=new Vodafone(); sim.calling(); sim.data();
+		 */
+		
+	ApplicationContex context = new ClassPathXmlApplicationContex;
+		
+	}
+}

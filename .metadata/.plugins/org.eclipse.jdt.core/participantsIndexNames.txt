@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\Hibernet_Spring_Test\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1559702829.index
+\springApp\src\main\resources
+D:\Hibernet_Spring_Test\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1185014993.index
+\telusko-spring-data-mvc-SB\src\main\java
